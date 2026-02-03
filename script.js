@@ -223,12 +223,11 @@ const translations = {
 const state = {
   lang: "en",
   links: {
-    stripe: "https://YOUR_STRIPE_LINK_HERE",
-    telegram: "https://YOUR_TELEGRAM_LINK_HERE",
-    calendly: "https://YOUR_CALENDLY_OR_WHATSAPP_LINK_HERE",
-    instagram: "https://instagram.com/libertyspanishschool",
+    stripe: "https://buy.stripe.com/3cI3cvdbR7tDgdD65Tgw007",
+    calendly: "https://calendly.com/escoladeidiomasliberty/free-class",
+    instagram: "https://www.instagram.com/libertyspanishschool/",
     tiktok: "https://tiktok.com/@libertyspanishschool",
-    youtube: "https://youtube.com/@libertyspanishschool"
+    facebook: "https://www.facebook.com/profile.php?id=61578069895237"
   }
 };
 

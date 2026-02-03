@@ -94,17 +94,14 @@ const translations = {
     cTitle: "Contact",
     cSub: "Book your free class or ask a question — we’ll reply as soon as possible.",
     cBookTitle: "Book your free class",
-    cBookDesc: "Add your Calendly (or WhatsApp) link below. For now it points to a placeholder.",
+    cBookDesc: "Book a complimentary 30-minute session to explore our method, ask your questions, and co-create a bespoke learning plan designed specifically for you..",
     ctaEmail: "Email us",
     cTiny: "Tip: Use the same CTA everywhere to avoid confusion.",
     cLinksTitle: "Quick links",
     linkIG: "Instagram",
-    linkTT: "TikTok",
     linkYT: "YouTube",
     linkTG: "Telegram",
-    linkPay: "Payment (Stripe)",
-    cMiniTitle: "One‑page funnel",
-    cMiniText: "Short video content → this page → membership or private sessions. Simple, measurable, and scalable.",
+  
 
     fText: "Where Spanish meets excellence. Online & worldwide.",
     fRights: "All rights reserved"
@@ -180,13 +177,12 @@ const translations = {
     noteText: "Muchos alumnos se unen a la membresía para mantener constancia y suman clases privadas cuando quieren más personalización.",
 
     tTitle: "Lo que dicen los alumnos",
-    tSub: "Agregá tus testimonios reales acá — incluso 3 frases cortas aumentan conversiones.",
     t1: "“Por fin me siento segura hablando. Los temas semanales son claros y prácticos.”",
-    t1who: "— Alumna, USA",
+    t1who: "— Stacy C., USA",
     t2: "“El vivo semanal me ayudó a corregir errores rápido. ¡Amo la comunidad!”",
-    t2who: "— Alumna, Alemania",
+    t2who: "— Faty Ch., Bélgica",
     t3: "“Explicaciones simples, español real y una profe muy cálida. Súper recomendado.”",
-    t3who: "— Alumna, Brasil",
+    t3who: "— Valdecir M., Brasil",
 
     faqTitle: "Preguntas frecuentes",
     faqSub: "Respuestas rápidas a las dudas más comunes.",
@@ -203,18 +199,14 @@ const translations = {
     cTitle: "Contacto",
     cSub: "Reservá tu clase gratis o consultanos — respondemos lo antes posible.",
     cBookTitle: "Reservá tu clase gratuita",
-    cBookDesc: "Agregá tu link de Calendly (o WhatsApp). Por ahora apunta a un placeholder.",
+    cBookDesc: "Reservá una sesión gratuita de 30 minutos para explorar nuestro método, resolver tus dudas y co-crear un plan de acción personalizado, diseñado especialmente para vos.",
     ctaEmail: "Enviar email",
     cTiny: "Tip: Usá el mismo CTA en todos lados para evitar confusión.",
     cLinksTitle: "Links rápidos",
     linkIG: "Instagram",
-    linkTT: "TikTok",
     linkYT: "YouTube",
     linkTG: "Telegram",
-    linkPay: "Pago (Stripe)",
-    cMiniTitle: "Embudo en 1 página",
-    cMiniText: "Videos cortos → esta página → membresía o clases privadas. Simple, medible y escalable.",
-
+    
     fText: "Donde el español se encuentra con la excelencia. Online y para todo el mundo.",
     fRights: "Todos los derechos reservados"
   }

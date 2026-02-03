@@ -244,8 +244,8 @@ function applyLinks(){
   setHref("linkStripe", state.links.stripe);
 
   // Telegram open
-  setHref("ctaTelegramMid", state.links.telegram);
-  setHref("linkTelegram", state.links.telegram);
+  //setHref("ctaTelegramMid", state.links.telegram);
+  //setHref("linkTelegram", state.links.telegram);
 
   // Calendly / WhatsApp booking
   setHref("ctaCalendly", state.links.calendly);
@@ -256,7 +256,7 @@ function applyLinks(){
   // Social
   setHref("linkInstagram", state.links.instagram);
   setHref("linkTikTok", state.links.tiktok);
-  setHref("linkYouTube", state.links.youtube);
+  //setHref("linkYouTube", state.links.youtube);
 }
 
 function setLanguage(lang){

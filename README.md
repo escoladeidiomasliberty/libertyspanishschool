@@ -14,7 +14,7 @@ Open **script.js** and replace these placeholders:
 - `https://YOUR_CALENDLY_OR_WHATSAPP_LINK_HERE`
 
 Optionally update:
-- Instagram / TikTok / YouTube links
+- Instagram / TikTok / YouTube links / 
 
 ## 2) Replace your logo
 Replace `assets/logo.svg` with your real logo:

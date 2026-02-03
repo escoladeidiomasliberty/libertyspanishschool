@@ -75,7 +75,7 @@ const translations = {
     t1: "“I finally feel confident speaking. The weekly topics are clear and practical.”",
     t1who: "— Stacy C., USA",
     t2: "“The live Q&A helped me fix my mistakes fast. I love the community!”",
-    t2who: "— Fraty CH, Belgium",
+    t2who: "— Faty CH, Belgium",
     t3: "“Simple explanations, real Spanish, and a kind teacher. Highly recommend.”",
     t3who: "— Valdecir M., Brazil",
 

@@ -243,9 +243,6 @@ function applyLinks(){
   setHref("ctaJoinBottom", state.links.stripe);
   setHref("linkStripe", state.links.stripe);
 
-  // Telegram open
-  //setHref("ctaTelegramMid", state.links.telegram);
-  //setHref("linkTelegram", state.links.telegram);
 
   // Calendly / WhatsApp booking
   setHref("ctaCalendly", state.links.calendly);
@@ -255,7 +252,7 @@ function applyLinks(){
 
   // Social
   setHref("linkInstagram", state.links.instagram);
-  setHref("linkTikTok", state.links.tiktok);
+  setHref("linkFacebook", state.links.facebook);
   //setHref("linkYouTube", state.links.youtube);
 }
 

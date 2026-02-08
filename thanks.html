@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome | Liberty Spanish School</title>
+  <meta name="description" content="Payment confirmed. Access your private Telegram community." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .center { text-align:center; }
+    .success { display:inline-flex; align-items:center; gap:.5rem; padding:.35rem .75rem; border-radius:999px; background: rgba(231,198,106,.14); border:1px solid rgba(231,198,106,.35); color: rgba(231,198,106,.98); font-weight:800; }
+    .box { max-width: 820px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logoAzul.png" alt="Liberty Spanish School" class="brand-logo" />
+        <div class="brand-text">
+          <div class="brand-name">Liberty Spanish School</div>
+          <div class="brand-tag">Spanish for real life</div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="index.html">Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="section hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="container box center" style="position:relative;">
+      <div class="success">✅ Payment confirmed</div>
+      <h1 class="hero-title" style="margin-top:14px;">Welcome to the community!</h1>
+      <p class="hero-sub">
+        Click the button below to join the private Telegram group and start practicing today.
+      </p>
+
+      <div style="margin-top:18px;">
+        <a class="btn btn-primary" id="joinTelegram" href="#" target="_blank" rel="noopener">
+          Join the Private Telegram Group →
+        </a>
+      </div>
+
+      <p style="margin-top:14px; color: rgba(255,255,255,.80);">
+        If the button doesn’t open Telegram, copy/paste the link into your browser or Telegram app.
+      </p>
+
+      <div class="panel panel-gold" style="margin-top:20px; text-align:left;">
+        <h3 style="margin-top:0;">Next steps</h3>
+        <ul class="list">
+          <li>Introduce yourself (name + level + goal)</li>
+          <li>Check the pinned message for this week’s topic</li>
+          <li>Join the weekly live Q&A (schedule inside the group)</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="assets/logoAzul.png" alt="Liberty Spanish School" class="footer-logo" />
+        <p class="footer-text">Support: escoladeidiomasliberty@gmail.com</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="telegram.html">Membership</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ✅ Telegram invite (ONLY here):
+    const TELEGRAM_INVITE = "https://t.me/+epAeZ6IbUPthOTEx";
+    document.getElementById("joinTelegram").href = TELEGRAM_INVITE;
+  </script>
+</body>
+</html>
+

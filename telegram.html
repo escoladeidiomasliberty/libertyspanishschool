@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Telegram Spanish Membership | Liberty Spanish School</title>
+  <meta name="description" content="Join our private Spanish Telegram membership: weekly topics, downloadable materials, and a live Q&A every week. $20/month." />
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .pill { display:inline-flex; gap:.5rem; align-items:center; padding:.35rem .65rem; border:1px solid rgba(255,255,255,.18); border-radius:999px; }
+    .price { font-size: clamp(2rem, 3.6vw, 3rem); line-height: 1.05; letter-spacing: -0.03em; }
+    .muted { opacity:.85; }
+    .kpis { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; margin-top: 16px; }
+    @media (max-width: 820px){ .kpis { grid-template-columns: 1fr; } }
+    .kpi { padding: 16px; border-radius: 18px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.10); }
+    .kpi strong { display:block; font-size: 1.05rem; margin-bottom: 4px; }
+    .faq { display:grid; gap: 12px; }
+    .faq details { background: rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.10); border-radius: 18px; padding: 14px 16px; }
+    .faq summary { cursor:pointer; font-weight: 650; color: #fff; }
+    .cta-row { display:flex; gap: 12px; flex-wrap: wrap; align-items:center; }
+    .note { font-size: .95rem; opacity: .9; color: rgba(255,255,255,.85); }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logoAzul.png" alt="Liberty Spanish School" class="brand-logo" />
+        <div class="brand-text">
+          <div class="brand-name">Liberty Spanish School</div>
+          <div class="brand-tag">Spanish for real life</div>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <a class="btn btn-ghost" href="index.html">Home</a>
+        <a class="btn btn-primary" id="ctaTop" href="#">Join – $20/mo</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="section hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="container" style="position:relative;">
+      <div class="two-col" style="align-items:start;">
+        <div>
+          <div class="pill">🔒 Private Telegram Membership • Weekly Support</div>
+          <h1 class="hero-title" style="margin-top:14px;">Speak Spanish with confidence — every week.</h1>
+          <p class="hero-sub">
+            A premium community to stay consistent: one new topic per week, downloadable materials & exercises,
+            plus a live 30-minute Q&A every week.
+          </p>
+
+          <div style="margin-top:16px; margin-bottom:10px;">
+            <div class="price" style="color:#fff;">$20 <span style="font-size: .55em; opacity:.85;">USD / month</span></div>
+            <div class="muted" style="margin-top:6px; color: rgba(255,255,255,.80);">Cancel anytime • Secure payment via Stripe</div>
+          </div>
+
+          <div class="cta-row" style="margin-top:18px;">
+            <a class="btn btn-primary" id="buyBtn" href="#">Join the Community</a>
+            <a class="btn btn-secondary" href="index.html#private">Explore private lessons</a>
+            <div class="note">After payment, you’ll get instant access on the confirmation page.</div>
+          </div>
+
+          <div class="kpis">
+            <div class="kpi">
+              <strong>📚 Weekly topic</strong>
+              Clear, practical lessons focused on real-life Spanish.
+            </div>
+            <div class="kpi">
+              <strong>📝 Materials + exercises</strong>
+              Downloadable resources to practice and improve fast.
+            </div>
+            <div class="kpi">
+              <strong>🎥 Live Q&A (30 min)</strong>
+              Ask questions, fix mistakes, and reinforce the topic.
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-gold">
+          <h3 style="margin-top:0;">What you get</h3>
+          <ul class="list">
+            <li>Private Telegram group (members only)</li>
+            <li>1 new topic every week</li>
+            <li>Materials + practice exercises sent weekly</li>
+            <li>Weekly live Q&A session (30 minutes)</li>
+            <li>Teacher guidance + community support</li>
+          </ul>
+
+          <div class="mini-box">
+            <div class="mini-title">Perfect for you if…</div>
+            <div class="mini-text">
+              You understand basics but struggle to speak confidently — and you want consistency with support.
+            </div>
+          </div>
+
+          <div style="margin-top:14px;">
+            <a class="btn btn-primary btn-full" id="buyBtn2" href="#">Join now — $20/mo</a>
+            <p class="tiny" style="margin-top:10px;">Access link is delivered after payment (members only).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>FAQ</h2>
+        <p class="section-sub">Quick answers before you join.</p>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary>How do I access the Telegram group?</summary>
+          <div class="faq-a">After payment, you’ll be redirected to a confirmation page with a private access button.</div>
+        </details>
+        <details>
+          <summary>Is it monthly and recurring?</summary>
+          <div class="faq-a">Yes — it’s $20/month, recurring. You can cancel anytime.</div>
+        </details>
+        <details>
+          <summary>What level is this for?</summary>
+          <div class="faq-a">Ideal for A2–B1 learners who want to speak naturally and confidently.</div>
+        </details>
+        <details>
+          <summary>What if I miss the live Q&A?</summary>
+          <div class="faq-a">No worries — you still have the weekly topic and materials, and you can ask questions inside the group.</div>
+        </details>
+      </div>
+
+      <div class="cta-center">
+        <a class="btn btn-primary" id="buyBtnBottom" href="#">Join Now – $20/month</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="assets/logoAzul.png" alt="Liberty Spanish School" class="footer-logo" />
+        <p class="footer-text">Premium Spanish learning — online & worldwide.</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ✅ Your Stripe payment link:
+    const STRIPE_LINK = "https://buy.stripe.com/3cI3cvdbR7tDgdD65Tgw007";
+
+    ["buyBtn","buyBtn2","buyBtnBottom","ctaTop"].forEach(id=>{
+      const el = document.getElementById(id);
+      if (el) el.href = STRIPE_LINK;
+    });
+  </script>
+</body>
+</html>
